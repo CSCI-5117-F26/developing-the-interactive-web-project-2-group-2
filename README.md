@@ -6,7 +6,7 @@ CSCI 5117, Fall 2026, [assignment description](https://canvas.umn.edu/courses/57
 
 * Team Name: The Style Sheet Skinks
 * App Name: TODO
-* App Link: <https://TODO.com/>
+* App Link: <https://developing-the-interactive-web-proj.vercel.app/>
 
 ### Students
 
