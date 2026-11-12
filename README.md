@@ -10,9 +10,11 @@ CSCI 5117, Fall 2026, [assignment description](https://canvas.umn.edu/courses/57
 
 ### Students
 
-* First Last, x500@umn.edu
-* ...
-
+* Han Tran, tran1229@umn.edu
+* Brady Kloek, kloek016@umn.edu
+* Amara Marx, marx0109@umn.edu
+* Sarah Wood, wood1532@umn.edu
+* Zoe Berrier, berri075@umn.edu
 
 ## Key Features
 
