@@ -36,9 +36,9 @@ Which (if any) progressive web app feature(s) does your app support?
 
 ## Mockup images
 
-**[Add images/photos that show your mockup](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) along with a very brief caption:**
+![Image of a Low-Fidelity Mockup made in Miro](/screenshots/proj2_mockup.png?raw=true)
 
-![](https://media.giphy.com/media/26ufnwz3wDUli7GU0/giphy.gif)
+A single high-quality image capturing the entirety of the low-fidelity mockup for your convenience. We encourage our dear grader to click into this image to zoom and explore! Alternatively, follow this [Miro Link](https://miro.com/app/board/uXjVEP0TjOE=/?share_link_id=816105118159) which theoretically should allow you to view our Miro whiteboard for additional zooming fun.
 
 
 ## Testing Notes
