@@ -14,7 +14,7 @@
 
 <div id='activities'>
     <div id='buttons'>
-        <button onclick={()=>{goto(resolve('/activities/new'))}}>Add</button>
+        <button onclick={()=>{goto(resolve('/activities/create'))}}>Add</button>
         <div id='search'>
             <input type='text' name='search' placeholder="search" bind:value={search}>
             <button onclick={()=>{searchActivity()}}>Search</button>
@@ -27,3 +27,11 @@
         {/each}
     </div>
 </div>
+
+<style>
+    #activitiesList {
+        display: flex;
+        gap: 1em;
+        flex-wrap: wrap;
+    }
+</style>

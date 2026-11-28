@@ -10,6 +10,11 @@ export const database = client.db('project2');  // we can change later
 const activities = database.collection('activities');
 const profiles = database.collection('profiles');
 
+type FriendPreview = {
+    id: ObjectId,
+    name: string,
+}
+
 export type Profile = {
     name: string,
     username: string,
@@ -25,7 +30,7 @@ export type Activity = {
     description: string,
     date: Date,
     size: number,
-    participants: ObjectId[],
+    participants: FriendPreview[],
     image: File | null,
     scheduled: boolean,
     complete: boolean
@@ -55,4 +60,16 @@ export async function getNewActivities(limit=0) {
 
 export async function createActivity(activity: Activity) {
     await activities.insertOne(activity);
+}
+
+export async function scheduleActivity(id: string) {
+    const res = await activities.updateOne({_id: new ObjectId(id)}, {$set: {scheduled: true}});
+    return res.modifiedCount == 1 && res.matchedCount == 1;
+}
+
+export async function getProfile(id: string) {
+    if (!ObjectId.isValid(id)) return null;
+
+    const user = await profiles.findOne({_id: new ObjectId(id)});
+    return user ? EJSON.serialize(user) : null;
 }

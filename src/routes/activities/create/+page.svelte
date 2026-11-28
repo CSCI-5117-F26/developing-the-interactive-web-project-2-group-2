@@ -3,7 +3,9 @@
 </script>
 
 <!-- Creates new activity, DOES NOT schedule it! -->
+<!-- TODO: add location and work on images -->
 <div id='newActivity'>
+    <h1>Create New Activity</h1>
     <form method='post' action='?/create' enctype="multipart/form-data" use:enhance>
         <label>Title <input type="text" name='title' required></label>
         <label>Date <input type="date" name='date' required></label>
