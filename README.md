@@ -4,14 +4,17 @@ CSCI 5117, Fall 2026, [assignment description](https://canvas.umn.edu/courses/57
 
 ## App Info:
 
-* Team Name: TODO
+* Team Name: The Style Sheet Skinks
 * App Name: TODO
-* App Link: <https://TODO.com/>
+* App Link: <https://developing-the-interactive-web-proj.vercel.app/>
 
 ### Students
 
-* First Last, x500@umn.edu
-* ...
+* Han Tran, tran1229@umn.edu
+* Brady Kloek, kloek016@umn.edu
+* Amara Marx, marx0109@umn.edu
+* Sarah Wood, wood1532@umn.edu
+* Zoe Berrier, berri075@umn.edu
 
 
 ## Key Features
@@ -33,9 +36,9 @@ Which (if any) progressive web app feature(s) does your app support?
 
 ## Mockup images
 
-**[Add images/photos that show your mockup](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository) along with a very brief caption:**
+![Image of a Low-Fidelity Mockup made in Miro](/screenshots/proj2_mockup.png?raw=true)
 
-![](https://media.giphy.com/media/26ufnwz3wDUli7GU0/giphy.gif)
+A single high-quality image capturing the entirety of the low-fidelity mockup for your convenience. We encourage our dear grader to click into this image to zoom and explore! Alternatively, follow this [Miro Link](https://miro.com/app/board/uXjVEP0TjOE=/?share_link_id=816105118159) which theoretically should allow you to view our Miro whiteboard for additional zooming fun.
 
 
 ## Testing Notes
