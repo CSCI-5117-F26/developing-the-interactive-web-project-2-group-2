@@ -18,7 +18,6 @@
         if (res.ok) {
             await refreshAll();
             goto(resolve('/activities'));
-            // may need to do a redirect instead
         }
     }
 </script>
