@@ -62,6 +62,11 @@ export async function createActivity(activity: Activity) {
     await activities.insertOne(activity);
 }
 
+export async function deleteActivity(id: string) {
+    const res = await activities.deleteOne({_id: new ObjectId(id)});
+    return res.deletedCount == 1;
+}
+
 export async function scheduleActivity(id: string) {
     const res = await activities.updateOne({_id: new ObjectId(id)}, {$set: {scheduled: true}});
     return res.modifiedCount == 1 && res.matchedCount == 1;
