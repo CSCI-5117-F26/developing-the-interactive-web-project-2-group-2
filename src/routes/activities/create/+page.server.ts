@@ -1,6 +1,7 @@
-import type { Actions } from './$types';
 import * as db from '#lib/server/mongodb.server.js';
-import { fail } from '@sveltejs/kit';
+import type { Actions } from './$types';
+import { fail, redirect } from '@sveltejs/kit';
+import { resolve } from '$app/paths';
 
 export const actions = {
 	create: async({request}) => {
@@ -27,5 +28,6 @@ export const actions = {
 			complete: false
 		}
 		await db.createActivity(activity);
+		redirect(303, resolve('/activities'));
 	} 
 } satisfies Actions;
