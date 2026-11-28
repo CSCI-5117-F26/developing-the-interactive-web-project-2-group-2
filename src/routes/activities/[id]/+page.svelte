@@ -4,8 +4,6 @@
 
     let {data} = $props();
     let {activity} = $derived(data);
-
-    console.log(activity);
 </script>
 
 <div id='activityPage'>
